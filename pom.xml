@@ -11,6 +11,17 @@
     <name>shopping-cart</name>
     <description>Demo project for Spring Boot Shopping Cart</description>
 
+         <distributionManagement>
+        <repository>
+            <id>maven-releases</id>
+            <url>http://35.168.2.128:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>maven-snapshots</id>
+            <url>http://35.168.2.128:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
