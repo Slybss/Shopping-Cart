@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.reljicd</groupId>
-    <artifactId>shopping-kart</artifactId>
+    <artifactId>shopping-cart</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>shopping-kart</name>
+    <name>shopping-cart</name>
     <description>Demo project for Spring Boot Shopping Cart</description>
 
          <distributionManagement>
